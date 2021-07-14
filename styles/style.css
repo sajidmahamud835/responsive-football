@@ -24,7 +24,9 @@ h2{
     font-size: 48px;
     font-weight: bold;
 }
-
+img{
+    width: 100%;
+}
 .ancor-button{
     display: inline-block;
     text-decoration: none;
@@ -32,6 +34,26 @@ h2{
     background: #E02C6D;
     padding: 10px 24px;
     margin: 14px 0;
+}
+/* ----------------------
+    header start
+----------------------- */
+header {
+    background-color: #2D25A0;
+    color: #FFFFFF;
+
+}
+#banner{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 485px 567px;
+    column-gap: 70px;
+    align-items: center;
+}
+h1{
+    font-weight: bold;
+    font-size: 64px;
+    margin: 0 0;
 }
 /* ---------------------------
     player info card style
@@ -72,9 +94,6 @@ h2{
     grid-template-columns: 466px 567px;
     column-gap: 70px;
     align-items: center;
-}
-#highlights-photo{
-    width: 100%;
 }
 
 /* -----------------
