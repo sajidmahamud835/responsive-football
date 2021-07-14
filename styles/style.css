@@ -226,3 +226,42 @@ input {
 footer a {
     font-size: 18px;
 }
+
+/* -------------
+    media query
+ ---------------*/
+ @media only screen and (max-width:688px) {
+    section{
+        margin-bottom: 46px;
+    }
+    img{
+        width: 50%;
+    }
+     #banner{
+        grid-template-columns: 70%;
+     }
+     .banner img{
+         width: 50%;
+     }
+     h1{
+        font-weight: 700;
+        font-size: 40px;
+        margin: 0 0;
+    }
+    #players{
+        grid-template-columns: repeat(1, 325px);
+    }
+    #highlights,
+    #latest-news {
+        grid-template-columns: 50%;
+    }
+    #newses{
+        grid-template-columns: 1fr;
+    }    
+    .news{
+        max-width: 60%;
+    }
+    #subscribe{
+        display: none;
+    }
+ }
