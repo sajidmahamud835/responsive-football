@@ -31,6 +31,7 @@ img{
 .ancor-button{
     display: inline-block;
     text-decoration: none;
+    font-weight: 700;
     color: #FFFFFF;
     background-color: #E02C6D;
     padding: 10px 24px;
@@ -57,7 +58,7 @@ header {
     align-items: center;
 }
 h1{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 64px;
     margin: 0 0;
 }
