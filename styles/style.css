@@ -253,15 +253,19 @@ footer a {
     }
     #highlights,
     #latest-news {
-        grid-template-columns: 50%;
+        grid-template-columns: 90%;
     }
     #newses{
-        grid-template-columns: 1fr;
+        grid-template-columns: 90%;
     }    
     .news{
-        max-width: 60%;
+        width: 90%;
     }
     #subscribe{
         display: none;
     }
+    #logo{
+        width: 250px;
+     }
+
  }
