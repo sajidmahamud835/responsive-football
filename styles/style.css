@@ -31,7 +31,7 @@ img{
     display: inline-block;
     text-decoration: none;
     color: #FFFFFF;
-    background: #E02C6D;
+    background-color: #E02C6D;
     padding: 10px 24px;
     margin: 14px 0;
 }
@@ -54,6 +54,10 @@ h1{
     font-weight: bold;
     font-size: 64px;
     margin: 0 0;
+}
+header>section:hover>div>.ancor-button{
+    color: #FFFFFF;
+    background: linear-gradient(45deg, #ff008c, #ff47d7);
 }
 /* ---------------------------
     player info card style
@@ -85,16 +89,47 @@ h1{
     padding: 15px;
 }
 
-/* ----------------------------
-    highlights section style
------------------------------- */
-#highlights{
+/* ----------------------------------------
+    highlights & latest-news section style
+----------------------------------------- */
+#highlights, 
+#latest-news {
     display: grid;
     justify-content: center;
-    grid-template-columns: 466px 567px;
     column-gap: 70px;
     align-items: center;
 }
+#highlights {
+    grid-template-columns: 466px 567px;
+}
+
+#latest-news{
+    grid-template-columns: 567px 466px;
+}
+
+#newses{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 8px;
+}
+
+.news .thumbline img{
+    width: 150px;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-info{
+    margin-left: 16px;
+}
+
+.news-title{
+    font-size: 20px;
+}
+
 
 /* -----------------
     footer style
