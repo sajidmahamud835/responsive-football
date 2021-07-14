@@ -34,6 +34,11 @@ img{
     background-color: #E02C6D;
     padding: 10px 24px;
     margin: 14px 0;
+    border-radius: 2px;
+}
+.ancor-button:hover{
+    color: #FFFFFF;
+    background: linear-gradient(120deg, #008000, #E02C6D);
 }
 /* ----------------------
     header start
@@ -110,16 +115,19 @@ header>section:hover>div>.ancor-button{
 #newses{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 8px;
+    gap: 15px;
 }
 
 .news .thumbline img{
     width: 150px;
+    border-radius: 5px;
 }
 .news{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
 .news-info{
